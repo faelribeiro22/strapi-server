@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_page_skils",
+  "info": {
+    "name": "skils",
+    "icon": "flask"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

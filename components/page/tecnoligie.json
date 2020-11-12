@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_page_tecnoligies",
+  "info": {
+    "name": "tecnoligie",
+    "icon": "atlas",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "logoTecnoligy": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_module_contents",
+  "info": {
+    "name": "moduleContent",
+    "icon": "file-contract"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_section_faqs",
+  "info": {
+    "name": "sectionFAQ",
+    "icon": "pastafarianism"
+  },
+  "options": {},
+  "attributes": {
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.faq"
+    }
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "name": "LandingPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header"
+    },
+    "sectionAboutProject": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-project"
+    },
+    "featureSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.feature-section"
+    },
+    "conceptsLearningSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.concepts-learning-section"
+    },
+    "modulesSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.modules-section"
+    },
+    "agendaSection": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.agenda-section"
+    },
+    "pricingBox": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box"
+    },
+    "sectionAboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-about-us"
+    }
+  }
+}

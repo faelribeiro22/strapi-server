@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_page_concepts_learning_sections",
+  "info": {
+    "name": "conceptsLearningSection",
+    "icon": "school"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "concepts": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.skils",
+      "required": true
+    }
+  }
+}
