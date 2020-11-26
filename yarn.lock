@@ -57,19 +57,19 @@
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.12.1.tgz#d7386a689aa0ddf06255005b4b991988021101a0"
   integrity sha512-725AQupWJZ8ba0jbKceeFblZTY90McUBWMwHhkFQ9q1zKPJ95GUktljFcgcsIVwRnTnRKlcYzfiNImg5G9m6ZQ==
 
-"@babel/core@^7.11.6":
-  version "7.12.3"
-  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.3.tgz#1b436884e1e3bff6fb1328dc02b208759de92ad8"
-  integrity sha512-0qXcZYKZp3/6N2jKYVxZv0aNCsxTSVCiK72DTiTYZAu7sjg73W0/aynWjMbiGd87EQL4WyA8reiJVh92AVla9g==
+"@babel/core@^7.12.3":
+  version "7.12.9"
+  resolved "https://registry.yarnpkg.com/@babel/core/-/core-7.12.9.tgz#fd450c4ec10cdbb980e2928b7aa7a28484593fc8"
+  integrity sha512-gTXYh3M5wb7FRXQy+FErKFAv90BnlOuNn1QkCK2lREoPAjrQCO49+HVSrFoe5uakFAF5eenS75KbO2vQiLrTMQ==
   dependencies:
     "@babel/code-frame" "^7.10.4"
-    "@babel/generator" "^7.12.1"
+    "@babel/generator" "^7.12.5"
     "@babel/helper-module-transforms" "^7.12.1"
-    "@babel/helpers" "^7.12.1"
-    "@babel/parser" "^7.12.3"
-    "@babel/template" "^7.10.4"
-    "@babel/traverse" "^7.12.1"
-    "@babel/types" "^7.12.1"
+    "@babel/helpers" "^7.12.5"
+    "@babel/parser" "^7.12.7"
+    "@babel/template" "^7.12.7"
+    "@babel/traverse" "^7.12.9"
+    "@babel/types" "^7.12.7"
     convert-source-map "^1.7.0"
     debug "^4.1.0"
     gensync "^1.0.0-beta.1"
@@ -85,6 +85,15 @@
   integrity sha512-DB+6rafIdc9o72Yc3/Ph5h+6hUjeOp66pF0naQBgUFFuPqzQwIlPTm3xZR7YNvduIMtkDIj2t21LSQwnbCrXvg==
   dependencies:
     "@babel/types" "^7.12.1"
+    jsesc "^2.5.1"
+    source-map "^0.5.0"
+
+"@babel/generator@^7.12.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.12.5.tgz#a2c50de5c8b6d708ab95be5e6053936c1884a4de"
+  integrity sha512-m16TQQJ8hPt7E+OS/XVQg/7U184MLXtvuGbCdA7na61vha+ImkyyNM/9DDA0unYCVZn3ZOhng+qz48/KBOT96A==
+  dependencies:
+    "@babel/types" "^7.12.5"
     jsesc "^2.5.1"
     source-map "^0.5.0"
 
@@ -297,14 +306,14 @@
     "@babel/traverse" "^7.10.4"
     "@babel/types" "^7.10.4"
 
-"@babel/helpers@^7.12.1":
-  version "7.12.1"
-  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.12.1.tgz#8a8261c1d438ec18cb890434df4ec768734c1e79"
-  integrity sha512-9JoDSBGoWtmbay98efmT2+mySkwjzeFeAL9BuWNoVQpkPFQF8SIIFUfY5os9u8wVzglzoiPRSW7cuJmBDUt43g==
+"@babel/helpers@^7.12.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/helpers/-/helpers-7.12.5.tgz#1a1ba4a768d9b58310eda516c449913fe647116e"
+  integrity sha512-lgKGMQlKqA8meJqKsW6rUnc4MdUk35Ln0ATDqdM1a/UpARODdI4j5Y5lVfUScnSNkJcdCRAaWkspykNoFg9sJA==
   dependencies:
     "@babel/template" "^7.10.4"
-    "@babel/traverse" "^7.12.1"
-    "@babel/types" "^7.12.1"
+    "@babel/traverse" "^7.12.5"
+    "@babel/types" "^7.12.5"
 
 "@babel/highlight@^7.10.4":
   version "7.10.4"
@@ -315,10 +324,15 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@babel/parser@^7.10.4", "@babel/parser@^7.12.1", "@babel/parser@^7.12.3":
+"@babel/parser@^7.10.4", "@babel/parser@^7.12.1":
   version "7.12.3"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.3.tgz#a305415ebe7a6c7023b40b5122a0662d928334cd"
   integrity sha512-kFsOS0IbsuhO5ojF8Hc8z/8vEIOkylVBrjiZUbLTE3XFe0Qi+uu6HjzQixkFaqr0ZPAMZcBVxEwmsnsLPZ2Xsw==
+
+"@babel/parser@^7.12.7":
+  version "7.12.7"
+  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.12.7.tgz#fee7b39fe809d0e73e5b25eecaf5780ef3d73056"
+  integrity sha512-oWR02Ubp4xTLCAqPRiNIuMVgNO5Aif/xpXtabhzW2HWUD47XJsAB4Zd/Rg30+XeQA3juXigV7hlquOTmwqLiwg==
 
 "@babel/plugin-proposal-async-generator-functions@^7.10.5", "@babel/plugin-proposal-async-generator-functions@^7.12.1":
   version "7.12.1"
@@ -946,6 +960,15 @@
     "@babel/parser" "^7.10.4"
     "@babel/types" "^7.10.4"
 
+"@babel/template@^7.12.7":
+  version "7.12.7"
+  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.12.7.tgz#c817233696018e39fbb6c491d2fb684e05ed43bc"
+  integrity sha512-GkDzmHS6GV7ZeXfJZ0tLRBhZcMcY0/Lnb+eEbXDBfCAcZCjrZKe6p3J4we/D24O9Y8enxWAg1cWwof59yLh2ow==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/parser" "^7.12.7"
+    "@babel/types" "^7.12.7"
+
 "@babel/traverse@^7.10.4", "@babel/traverse@^7.12.1", "@babel/traverse@^7.4.5":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.12.1.tgz#941395e0c5cc86d5d3e75caa095d3924526f0c1e"
@@ -961,10 +984,34 @@
     globals "^11.1.0"
     lodash "^4.17.19"
 
+"@babel/traverse@^7.12.5", "@babel/traverse@^7.12.9":
+  version "7.12.9"
+  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.12.9.tgz#fad26c972eabbc11350e0b695978de6cc8e8596f"
+  integrity sha512-iX9ajqnLdoU1s1nHt36JDI9KG4k+vmI8WgjK5d+aDTwQbL2fUnzedNedssA645Ede3PM2ma1n8Q4h2ohwXgMXw==
+  dependencies:
+    "@babel/code-frame" "^7.10.4"
+    "@babel/generator" "^7.12.5"
+    "@babel/helper-function-name" "^7.10.4"
+    "@babel/helper-split-export-declaration" "^7.11.0"
+    "@babel/parser" "^7.12.7"
+    "@babel/types" "^7.12.7"
+    debug "^4.1.0"
+    globals "^11.1.0"
+    lodash "^4.17.19"
+
 "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.11.0", "@babel/types@^7.12.1", "@babel/types@^7.4.4":
   version "7.12.1"
   resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.1.tgz#e109d9ab99a8de735be287ee3d6a9947a190c4ae"
   integrity sha512-BzSY3NJBKM4kyatSOWh3D/JJ2O3CVzBybHWxtgxnggaxEuaSTTDqeiSb/xk9lrkw2Tbqyivw5ZU4rT+EfznQsA==
+  dependencies:
+    "@babel/helper-validator-identifier" "^7.10.4"
+    lodash "^4.17.19"
+    to-fast-properties "^2.0.0"
+
+"@babel/types@^7.12.5", "@babel/types@^7.12.7":
+  version "7.12.7"
+  resolved "https://registry.yarnpkg.com/@babel/types/-/types-7.12.7.tgz#6039ff1e242640a29452c9ae572162ec9a8f5d13"
+  integrity sha512-MNyI92qZq6jrQkXvtIiykvl4WtoRrVV9MPn+ZfsoEENjiWcBQ3ZSHrkxnJWgWtLX3XXqX5hrSQ+X69wkmesXuQ==
   dependencies:
     "@babel/helper-validator-identifier" "^7.10.4"
     lodash "^4.17.19"
@@ -1229,10 +1276,10 @@
   dependencies:
     "@fortawesome/fontawesome-common-types" "^0.2.32"
 
-"@fortawesome/react-fontawesome@^0.1.4", "@fortawesome/react-fontawesome@^0.1.7":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.11.tgz#c1a95a2bdb6a18fa97b355a563832e248bf6ef4a"
-  integrity sha512-sClfojasRifQKI0OPqTy8Ln8iIhnxR/Pv/hukBhWnBz9kQRmqi6JSH3nghlhAY7SUeIIM7B5/D2G8WjX0iepVg==
+"@fortawesome/react-fontawesome@^0.1.12", "@fortawesome/react-fontawesome@^0.1.4":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@fortawesome/react-fontawesome/-/react-fontawesome-0.1.13.tgz#ce9654bf4e537108014ec022f2423dbe8114fd62"
+  integrity sha512-/HrLnIft5Ks2511Pz6TxHBIctC9QalVscAC64sufQ4sJH/sXaQlG3uR9LCu6VpEwkBemgcBLrz/QPNP/ddbjDg==
   dependencies:
     prop-types "^15.7.2"
 
@@ -2581,7 +2628,7 @@ boom@^7.3.0:
   dependencies:
     hoek "6.x.x"
 
-bootstrap@^4.5.2:
+bootstrap@^4.5.2, bootstrap@^4.5.3:
   version "4.5.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
   integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
@@ -4619,17 +4666,16 @@ formidable@^1.1.1:
   resolved "https://registry.yarnpkg.com/formidable/-/formidable-1.2.2.tgz#bf69aea2972982675f00865342b982986f6b8dd9"
   integrity sha512-V8gLm+41I/8kguQ4/o1D3RIHRmhYFG4pnNyonvua+40rqcEmT4+V71yaZ3B457xbbgCsCfjSPi65u/W6vK1U5Q==
 
-formik@^2.1.4:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/formik/-/formik-2.2.1.tgz#e09747569e44ffc17263541d2e732cc6568208dc"
-  integrity sha512-N/8Q1yGlXHibyrM5CyKtC85V8U+mxY04zSfakpyR1e6KpaIC4+A4yo30NBARRprkFoxoT1EV+yK8bo5tjXxfyg==
+formik@^2.2.5:
+  version "2.2.5"
+  resolved "https://registry.yarnpkg.com/formik/-/formik-2.2.5.tgz#addf4ed7a15ebddf22c883a3d358cd27c8a91a55"
+  integrity sha512-KkOsyYmh5xsow+wlbdL9QSkqvbiHSb1RIToBKiooCFW4lyypn+ZlHGjTuuOqUWBqZaI5nCEupeI275Mo6tFBzg==
   dependencies:
     deepmerge "^2.1.1"
     hoist-non-react-statics "^3.3.0"
     lodash "^4.17.14"
     lodash-es "^4.17.14"
     react-fast-compare "^2.0.1"
-    scheduler "^0.18.0"
     tiny-warning "^1.0.2"
     tslib "^1.10.0"
 
@@ -8355,6 +8401,16 @@ react-side-effect@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-side-effect/-/react-side-effect-2.1.0.tgz#1ce4a8b4445168c487ed24dab886421f74d380d3"
   integrity sha512-IgmcegOSi5SNX+2Snh1vqmF0Vg/CbkycU9XZbOHJlZ6kMzTmi3yc254oB1WCkgA7OQtIAoLmcSFuHTc/tlcqXg==
 
+react-transition-group@4.4.1, react-transition-group@^4.3.0:
+  version "4.4.1"
+  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
+  integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
+  dependencies:
+    "@babel/runtime" "^7.5.5"
+    dom-helpers "^5.0.1"
+    loose-envify "^1.4.0"
+    prop-types "^15.6.2"
+
 react-transition-group@^2.3.1:
   version "2.9.0"
   resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-2.9.0.tgz#df9cdb025796211151a436c69a8f3b97b5b07c8d"
@@ -8364,16 +8420,6 @@ react-transition-group@^2.3.1:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
-
-react-transition-group@^4.3.0:
-  version "4.4.1"
-  resolved "https://registry.yarnpkg.com/react-transition-group/-/react-transition-group-4.4.1.tgz#63868f9325a38ea5ee9535d828327f85773345c9"
-  integrity sha512-Djqr7OQ2aPUiYurhPalTrVy9ddmFCCzwhqQmtN+J3+3DzLO209Fdr70QrN8Z3DsglWql6iY1lDWAfpFiBtuKGw==
-  dependencies:
-    "@babel/runtime" "^7.5.5"
-    dom-helpers "^5.0.1"
-    loose-envify "^1.4.0"
-    prop-types "^15.6.2"
 
 react-virtualized@^9.21.2:
   version "9.22.2"
@@ -8933,14 +8979,6 @@ saslprep@^1.0.0:
   dependencies:
     sparse-bitfield "^3.0.3"
 
-scheduler@^0.18.0:
-  version "0.18.0"
-  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.18.0.tgz#5901ad6659bc1d8f3fdaf36eb7a67b0d6746b1c4"
-  integrity sha512-agTSHR1Nbfi6ulI0kYNK0203joW2Y5W4po4l+v03tOoiJKpTBbxpNhWDvqc/4IcOw+KLmSiQLTasZ4cab2/UWQ==
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-
 scheduler@^0.19.1:
   version "0.19.1"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
@@ -9451,12 +9489,12 @@ std-env@^2.2.1:
   dependencies:
     ci-info "^1.6.0"
 
-strapi-admin@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.2.5.tgz#d28ed265a01779ce59aa56fddd32844de8c23b26"
-  integrity sha512-t8XEjLK43pTlyaxow4XS8LfPfB+GjSxP5OaxfP3AXUMUwenwk7d52Qo05CQIUQ2AL//hGE3SuYeG/PIoHp5s7g==
+strapi-admin@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-admin/-/strapi-admin-3.3.4.tgz#458f07fe3259f1061fae4a87dafcf1f8d1d70675"
+  integrity sha512-yE2h/b+0PrMM2LtGTmKM7tqNfGv5eYmHCJrIMZfNM7VNUlUIrGO2Pw1XCQGmmkzKkEnGW30Vdd+512aN3LTXUA==
   dependencies:
-    "@babel/core" "^7.11.6"
+    "@babel/core" "^7.12.3"
     "@babel/plugin-proposal-async-generator-functions" "^7.10.5"
     "@babel/plugin-proposal-class-properties" "^7.4.0"
     "@babel/plugin-syntax-dynamic-import" "^7.2.0"
@@ -9477,12 +9515,12 @@ strapi-admin@3.2.5:
     "@fortawesome/fontawesome-svg-core" "^1.2.32"
     "@fortawesome/free-brands-svg-icons" "^5.11.2"
     "@fortawesome/free-solid-svg-icons" "^5.14.0"
-    "@fortawesome/react-fontawesome" "^0.1.7"
+    "@fortawesome/react-fontawesome" "^0.1.12"
     autoprefixer "^9.8.6"
     axios "^0.20.0"
     babel-loader "^8.1.0"
     bcryptjs "^2.4.3"
-    bootstrap "^4.5.2"
+    bootstrap "^4.5.3"
     chalk "^2.4.2"
     chokidar "^3.2.1"
     classnames "^2.2.6"
@@ -9492,7 +9530,7 @@ strapi-admin@3.2.5:
     execa "^1.0.0"
     file-loader "^6.1.0"
     font-awesome "^4.7.0"
-    formik "^2.1.4"
+    formik "^2.2.5"
     friendly-errors-webpack-plugin "^1.7.0"
     fs-extra "^9.0.1"
     history "^4.9.0"
@@ -9527,7 +9565,7 @@ strapi-admin@3.2.5:
     react-router "^5.0.0"
     react-router-dom "^5.0.0"
     react-select "^3.0.8"
-    react-transition-group "^4.3.0"
+    react-transition-group "4.4.1"
     react-virtualized "^9.21.2"
     reactstrap "8.4.1"
     redux "^4.0.1"
@@ -9536,8 +9574,8 @@ strapi-admin@3.2.5:
     reselect "^4.0.0"
     sanitize.css "^4.1.0"
     sift "13.1.10"
-    strapi-helper-plugin "3.2.5"
-    strapi-utils "3.2.5"
+    strapi-helper-plugin "3.3.4"
+    strapi-utils "3.3.4"
     style-loader "^0.23.1"
     styled-components "^5.0.0"
     terser-webpack-plugin "^1.2.3"
@@ -9665,6 +9703,33 @@ strapi-helper-plugin@3.2.5:
     "@buffetjs/styles" "3.3.1"
     "@buffetjs/utils" "3.3.1"
     bootstrap "^4.5.2"
+    classnames "^2.2.5"
+    immutable "^3.8.2"
+    invariant "^2.2.1"
+    lodash "4.17.19"
+    moment "^2.16.0"
+    react "^16.13.1"
+    react-dom "^16.9.0"
+    react-helmet "^6.1.0"
+    react-intl "4.5.0"
+    react-router "^5.0.0"
+    react-router-dom "^5.0.0"
+    reactstrap "8.4.1"
+    styled-components "^5.0.0"
+    whatwg-fetch "^3.3.1"
+
+strapi-helper-plugin@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-helper-plugin/-/strapi-helper-plugin-3.3.4.tgz#d42f4b6c51c113c5aabb2756ed91640f794af113"
+  integrity sha512-qFm5OACbuYgLRkp6z47kWoo+HFoXcv0US0lbR69hYud6hDAUoY37hlXOAdtB2JzdO1fRri/U2Oy+po1lTOOyTg==
+  dependencies:
+    "@buffetjs/core" "3.3.1"
+    "@buffetjs/custom" "3.3.1"
+    "@buffetjs/hooks" "3.3.1"
+    "@buffetjs/icons" "3.3.1"
+    "@buffetjs/styles" "3.3.1"
+    "@buffetjs/utils" "3.3.1"
+    bootstrap "^4.5.3"
     classnames "^2.2.5"
     immutable "^3.8.2"
     invariant "^2.2.1"
@@ -9872,6 +9937,18 @@ strapi-utils@3.2.5:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.2.5.tgz#9e757ca9009c2211eec491514b2f0f3c7865f035"
   integrity sha512-d9CuD/DLV9ppmjtxpXtuZCl9MMnz8jIJxw7DS8t6By0DRl31CrM7lsNUo4iXj0YSFLa0NCotVYUozcY+vtDwnw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.3.4.tgz#d45148779897dc6705a7afb46fe49368b4a4e11e"
+  integrity sha512-5rIberNccSIzKQGtfnsH37fBjDmsMkP2Lak1qlioYbohlhel23rN7nvq7PRN+VlFoNVsZAIj91mveZKKG1tsvw==
   dependencies:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
