@@ -9881,6 +9881,18 @@ strapi-utils@3.3.2:
     pluralize "^8.0.0"
     yup "0.29.3"
 
+strapi-utils@3.4.2:
+  version "3.4.2"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.4.2.tgz#44e92f22c31f0e39667aa7b33078dc89bc07baad"
+  integrity sha512-nLJ5KqefvPzqENtG2Gx3AuseLUqmBV1/zgTKJJJNEFSi2wR8XFpstJMYiMT39BR2naksf7EuiOo1y/3ds1qTyQ==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
 strapi@3.2.5:
   version "3.2.5"
   resolved "https://registry.yarnpkg.com/strapi/-/strapi-3.2.5.tgz#601b73d7d3b7d4bc44f599295f70e1e4ef8c5f53"
