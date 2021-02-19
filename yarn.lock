@@ -9538,19 +9538,19 @@ strapi-admin@3.2.5:
     webpackbar "^4.0.0"
     yup "^0.27.0"
 
-strapi-connector-bookshelf@3.2.5:
-  version "3.2.5"
-  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.2.5.tgz#c1535895028d9afa40689d8be3facf53879b3f47"
-  integrity sha512-0gOU8ZsQS3OKtX1+BhhUTPk8axlgV4mWUcDwV20qHrp4KY/Er6Bc31xjJ9dbC/u3RDWFkKgNsnwvnAXkUbtGnQ==
+strapi-connector-bookshelf@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/strapi-connector-bookshelf/-/strapi-connector-bookshelf-3.5.0.tgz#69f06ab78827729be2afdca03e37f924c56ab58c"
+  integrity sha512-L2Lm7ilm+xTNvO8PE/LYVBxg7ekiPQxgUnqQ4E0To1mi+UvGjozoTRaQ07XbnK2lJBEh4aoGYeB6fl4wCd2Ofw==
   dependencies:
     bookshelf "^1.0.1"
     date-fns "^2.8.1"
     inquirer "^6.3.1"
-    lodash "4.17.19"
+    lodash "4.17.20"
     p-map "4.0.0"
     pluralize "^8.0.0"
     rimraf "3.0.2"
-    strapi-utils "3.2.5"
+    strapi-utils "3.5.0"
 
 strapi-database@3.2.5:
   version "3.2.5"
@@ -9877,6 +9877,18 @@ strapi-utils@3.3.2:
     "@sindresorhus/slugify" "1.1.0"
     date-fns "^2.8.1"
     lodash "4.17.19"
+    pino "^4.7.1"
+    pluralize "^8.0.0"
+    yup "0.29.3"
+
+strapi-utils@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/strapi-utils/-/strapi-utils-3.5.0.tgz#7711b4adc2a6fd62449c0d3767d0429f840395ce"
+  integrity sha512-gTFeMizT1vAFuncRkP6T1eBGXx5xvfyACyILKrmI2an3K+dCRuGmpVKR7OP6cLsjT3IjW0GjDYs2roAvOBr+mw==
+  dependencies:
+    "@sindresorhus/slugify" "1.1.0"
+    date-fns "^2.8.1"
+    lodash "4.17.20"
     pino "^4.7.1"
     pluralize "^8.0.0"
     yup "0.29.3"
