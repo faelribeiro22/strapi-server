@@ -11,7 +11,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@ckeditor/ckeditor5-build-classic": "^23.1.0",
+    "@ckeditor/ckeditor5-build-classic": "^31.1.0",
     "@ckeditor/ckeditor5-react": "^3.0.0",
     "knex": "<0.20.0",
     "pg": "latest",
@@ -20,7 +20,7 @@
     "strapi-connector-bookshelf": "3.2.5",
     "strapi-plugin-content-manager": "3.2.5",
     "strapi-plugin-content-type-builder": "3.2.5",
-    "strapi-plugin-email": "3.2.5",
+    "strapi-plugin-email": "3.3.2",
     "strapi-plugin-graphql": "3.3.2",
     "strapi-plugin-upload": "3.2.5",
     "strapi-plugin-users-permissions": "3.2.5",
